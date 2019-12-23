@@ -1,0 +1,5 @@
+let a=0 and b=0 and c=0 in
+    let discr=b*b-4*a*c in
+        if discr==0 then print("discriminant nul : une seule racine")
+        else if discr>0 then print("discriminant positif : deux racines")
+             else print("discriminant négatif : aucune racine")
